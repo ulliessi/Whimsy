@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <div class="top-bar">
+    <div class="logo-container">
+        <img src="logo.png" alt="Whimsy Logo">
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="katalog.html">Каталог</a></li>
+            <li><a href="zakaz.html">Индивидуальный заказ</a></li>
+            <li><a href="about-us.html">О нас</a></li>
+        </ul>
+    </nav>
+    <div class="cart-icon">
+        <img src="cart.png" alt="Shopping Cart" onclick="location.href='korzina.html';">
+    </div>
+</div>
+</header>
+    <section class="slideshow">
+        <img src="1.png" alt="Background Image" class="background-image">
+    <div class="buttons-container">
+        <a href="individual-order.html" class="button">Индивидуальный заказ</a>
+        <a href="catalog.html" class="button">Каталог</a>
+    </div>
+    </section>
+	<div class="popular-section-h2">
+	<h2>Популярное</h2>
+	</div>
+	<div class="popular-section">
+    <section class="popular-section">
+        <!-- Карточка 1 -->
+        <div class="card">
+            <a href="ссылка-на-страницу-товара1">
+                <img src="img1.jpg" alt="Товар 1">
+                <div class="container">
+                    <h4><b>Товар 1</b></h4>
+                    <p>Описание товара 1</p>
+                </div>
+            </a>
+        </div>
+        <!-- Карточка 2 -->
+        <div class="card">
+            <a href="ссылка-на-страницу-товара2">
+                <img src="img2.jpg" alt="Товар 2">
+                <div class="container">
+                    <h4><b>Товар 2</b></h4>
+                    <p>Описание товара 2</p>
+                </div>
+            </a>
+        </div>
+        <!-- Карточка 3 -->
+        <div class="card">
+            <a href="ссылка-на-страницу-товара3">
+                <img src="img3.jpg" alt="Товар 3">
+                <div class="container">
+                    <h4><b>Товар 3</b></h4>
+                    <p>Описание товара 3</p>
+                </div>
+            </a>
+        </div>
+        <!-- Карточка 4 -->
+        <div class="card">
+            <a href="ссылка-на-страницу-товара4">
+                <img src="img4.jpg" alt="Товар 4">
+                <div class="container">
+                    <h4><b>Товар 4</b></h4>
+                    <p>Описание товара 4</p>
+                </div>
+            </a>
+        </div>
+        <!-- Карточка 5 -->
+        <div class="card">
+            <a href="ссылка-на-страницу-товара5">
+                <img src="img5.jpg" alt="Товар 5">
+                <div class="container">
+                    <h4><b>Товар 5</b></h4>
+                    <p>Описание товара 5</p>
+                </div>
+            </a>
+        </div>
+        <!-- Карточка 6 -->
+        <div class="card">
+            <a href="ссылка-на-страницу-товара6">
+                <img src="img6.jpg" alt="Товар 6">
+                <div class="container">
+                    <h4><b>Товар 6</b></h4>
+                    <p>Описание товара 6</p>
+                </div>
+            </a>
+        </div>
+        <!-- Карточка 7 -->
+        <div class="card">
+            <a href="ссылка-на-страницу-товара7">
+                <img src="img7.jpg" alt="Товар 7">
+                <div class="container">
+                    <h4><b>Товар 7</b></h4>
+                    <p>Описание товара 7</p>
+                </div>
+            </a>
+        </div>
+        <!-- Карточка 8 -->
+        <div class="card">
+            <a href="ссылка-на-страницу-товара8">
+                <img src="img8.jpg" alt="Товар 8">
+                <div class="container">
+                    <h4><b>Товар 8</b></h4>
+                    <p>Описание товара 8</p>
+                </div>
+            </a>
+        </div>
+		<div class="card">
+            <a href="ссылка-на-страницу-товара9">
+                <img src="img9.jpg" alt="Товар 9">
+                <div class="container">
+                    <h4><b>Товар 9</b></h4>
+                    <p>Описание товара 9</p>
+                </div>
+            </a>
+        </div>
+    </section>
+</div>
+
+  <!-- Добавьте остальные карточки по аналогии -->
+</div>
+    <section class="contact-form">
+    <h2>Заполните форму и мы свяжемся с вами</h2>
+    <form action="submit_form.php" method="post">
+        <div class="form-group">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Ваш номер телефона:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Ваша электронная почта:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <button type="submit">Заказать консультацию</button>
+    </form>
+</section>
+    <footer>
+    <div class="footer-column contact-info">
+        <h3>Контакты</h3>
+        <p>Телефон: <a href="tel:+375331234567">+375 33 123-45-67</a></p>
+        <p>Email: <a href="mailto:whimsy@gmail.com">whimsy@gmail.com</a></p>
+        <div class="social-icons">
+            <img src="inst.png" onclick="location.href='https://instagram.com';">
+            <img src="tg.png" onclick="location.href='https://telegram.com';">
+            <img src="whatsapp.png" onclick="location.href='https://whatsapp.com';">
+        </div>
+    </div>
+    <div class="footer-column customer-info">
+        <h3>Покупателям</h3>
+        <ul>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Оплата</a></li>
+            <li><a href="#">Возврат и обмен</a></li>
+            <li><a href="#">Техническая поддержка</a></li>
+        </ul>
+    </div>
+    <div class="footer-column about-us">
+        <h3>О нас</h3>
+        <ul>
+            <li><a href="#">Почему мы</a></li>
+            <li><a href="#">Вопросы и ответы</a></li>
+            <li><a href="#">Адреса магазинов</a></li>
+        </ul>
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
